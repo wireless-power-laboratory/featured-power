@@ -1,0 +1,184 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Warning" -1 7 1 {CSTYLE "" -1 -1 "Courier
+" 1 10 0 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Outpu
+t" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 
+}1 3 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 14 "16 April 2004\n" }{TEXT 
+256 48 "Equations for the I-Cybie Wireless Power Project" }{TEXT -1 2 
+"\n\n" }{TEXT 259 11 "Motivation:" }{TEXT -1 823 "\n   This document i
+s in response to the inability of battery manufacturers to make a dece
+nt product.  The last CD player I bought claims 4 hours of alkaline li
+fe but only lasts 60 to 90 minutes at the least power-consumption leve
+l.  Now, with the I-Cybie Project in full swing and the Sydrandria Alg
+orithms ready to test, the goddamned battery claims 4 hours of use but
+ only lasts, you guessed it, 60 to 90 minutes.  This is the last straw
+.  So, calling on an old project and even older research, I have decid
+ed to test out Tesla's Wardenclyffe wireless power transmitter.  These
+ computations are all related to this.  This work is in pursuit of a p
+rototype to test which eventually will be utilized in the I-Cybie to t
+ransmit not only power, but in the future, instuction sets as well.\n
+\n   This note is an addendum to the " }{TEXT 257 18 "Spiral Wound Cal
+cs" }{TEXT -1 341 " for the Cybie wireless power project.  In its curr
+ent configuration, the Model 'F' uses an A and B coil system to obtain
+ the proper linear power transmission requirements.  This file deals o
+nly with the linear B coil calculations for either an exact match of A
+'s core frequency of 14.556MHz or a harmonic (an octave or octaves bel
+ow) of it." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 259 "   The date on the top of this document reflects the last revi
+sion date of this file.  I had to guesstimate the inductance and capac
+itance of my circuits, now I have input the actual charted (w/HP4192A \+
+and HP3458A) data and discovered the shift in frequency.\n" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "restart:\nwith(numtheory):" }}
+{PARA 7 "" 1 "" {TEXT -1 69 "Warning, the protected name order has bee
+n redefined and unprotected\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 31 "eqn:=solve(L = (N^2*mu*A)/l,N);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%$eqnG6$*(%#muG!\"\"%\"AGF(**F'\"\"\"F)F+%\"LGF+%\"lGF+#F+\"\"#,$F
+&F(" }}}{EXCHG {PARA 256 "" 1 "" {TEXT -1 29 "   The result represente
+d in " }{TEXT 268 4 "eqn " }{TEXT -1 98 "hints to a nonlinear DE prese
+nt in the system.  The correlated solutions I have hypothesized are:\n
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 58 "y_prime_alpha:=sqrt(y^2+b^2);\ny_prime_beta:=sqrt(y^2
+-b^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%.y_prime_alphaG*$-%%sqrtG6
+#,&*$)%\"yG\"\"#\"\"\"F.*$)%\"bGF-F.F.F." }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%-y_prime_betaG*$-%%sqrtG6#,&*$)%\"yG\"\"#\"\"\"F.*$)%\"bGF-F.!
+\"\"F." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 45 "   Which represents the
+ particular solution:\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "
+y(alpha):=b*sinh(a*(x-x0));\ny(beta):=b*cosh(a*(x-x0));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>-%\"yG6#%&alphaG*&%\"bG\"\"\"-%%sinhG6#*&%\"aGF
+*,&%\"xGF*%#x0G!\"\"F*F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>-%\"yG6#%
+%betaG*&%\"bG\"\"\"-%%coshG6#*&%\"aGF*,&%\"xGF*%#x0G!\"\"F*F*" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 201 "   Back to the experiment at hand
+; the shaft for the B coil must be of a particular size and shape.  Sp
+iral coils are out of the question, so a more linear relationship must
+ be explored.  The value of " }{TEXT 258 1 "l" }{TEXT -1 140 " corresp
+onds to the maximum space available in the Cybie battery compartment--
+--0.250\" radius coil (0.500\" diameter), 3.500\" in coil length." }
+{MPLTEXT 1 0 1 "\n" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 20 "For the Tx[
+B] coil:\n" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 109 "L[H]:= 11.300E-6;\nmu:= 12.56E-7;\nA:= 3.1415926*r^2;\nr:= 0.00
+635;\nl:= 0.0889;\nC[F]:= 67.7565003E-9;\nR:= 1000;\n" }{TEXT -1 10 "(
+Changing " }{TEXT 267 1 "R" }{TEXT -1 35 " will only affect bandwidth.
+  This " }{TEXT 266 1 "C" }{TEXT -1 85 " uses the entire plate area eq
+uation with dielectric figured in; not the plate-count " }{TEXT 265 3 
+"N-1" }{TEXT -1 11 " equation.)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%
+\"LG6#%\"HG$\"&+8\"!\"*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#muG$\"%c
+7!\"*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG,$*$)%\"rG\"\"#\"\"\"$
+\")EfTJ!\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"rG$\"$N'!\"&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"lG$\"$*))!\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"CG6#%\"FG$\"*.]cx'!#;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"RG\"%+5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 261 217 "N
+OTE:  Number of winds of actual B and B' coils are 74.75.  The adustme
+nt to the L and C values reflect the real devices.  This is for isolat
+ing the core frequency of the device.  Capacitance values are from the
+ RESU." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "Number_of_Winds:=
+solve(L[H] = (N^2*mu*A)/l,N);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%0Nu
+mber_of_WindsG6$$!+xX'f%z!\")$\"+xX'f%zF(" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 44 "fb[Hz]:=solve(f = 1/(2*Pi*sqrt(L[H]*C[F])));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#fbG6#%#HzG$\"+xd))==!\"%" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "omega:= 2*3.1415926*fb[Hz];
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&omegaG$\"+>'RG9\"!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "Period[s]:= 1/fb[Hz];" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%'PeriodG6#%\"sG$\"+\\8(y\\&!#:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "Xc_OHMS:= 1/(omega*C[F]);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(Xc_OHMSG$\"+9)39H\"!\")" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "XL_OHMS:= omega*C[F];" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(XL_OHMSG$\"+*H\"[Vx!#6" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 45 "Now find Q in terms of the series RL natu
+re:\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "Q1:=(2*3.1415926*fb[Hz]*L[
+H])/R;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#Q1G$\"+q(39H\"!#6" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 44 "Now find the bandwidth of the circ
+uit (Hz):\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "B1:=Q1*fb[Hz];" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#B1G$\"+W]#*[B!\"'" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 45 "Now find Q in terms of the series RC nature:\n
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 34 "Q2:=1/(2*3.1415926*fb[Hz]*R*C[F]);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%#Q2G$\"+8)39H\"!#6" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 44 "Now find the bandwidth of the circuit (Hz):\n" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 14 "B2:=Q2*fb[Hz];" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#B2G$\"+A^#*[B!\"'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 1 "\n" }{TEXT -1 62 "21 March 2004--\n   I just substitut
+ed the irrational value of " }{TEXT 269 2 "pi" }{TEXT -1 79 " instead \+
+of my circuit approximation of [3.1415926] into the operator function \+
+" }{TEXT 260 1 "f" }{TEXT -1 17 ".  All values of " }{TEXT 270 1 "Q" }
+{TEXT -1 5 " and " }{TEXT 271 1 "B" }{TEXT -1 299 " have shifted in th
+e manner presented in the usage of the full irrational component.  Thi
+s, to me, verifies the success of my approximations and the behavior o
+f the circuit is a little closer to reality.  I can't wait to make thi
+s thing work and prove those complacent shitheads wrong in perpetuity.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+22 "For the Rx'[B'] coil:\n" }{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 102 "L:= 10.898E-6;\nmu:= 12.56E-7;\nA:= 3.1415926
+*r^2;\nr:= 0.00635;\nl:= 0.0889;\nC:= 67.7565003E-9;\nR:= 1000;" }
+{TEXT -1 7 "\n(This " }{TEXT 264 1 "C" }{TEXT -1 85 " uses the entire \+
+plate area equation with dielectric figured in; not the plate-count " 
+}{TEXT 263 3 "N-1" }{TEXT -1 11 " equation.)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"LG$\"&)*3\"!\"*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%#muG$\"%c7!\"*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG$\"+w'onE\"!
+#8" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"rG$\"$N'!\"&" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"lG$\"$*))!\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%\"CG$\"*.]cx'!#;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"RG\"%+5" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "fbprime[Hz]:=solve(f = 1/
+(2*Pi*sqrt(L*C)));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%(fbprimeG6#%#
+HzG$\"+k!H@&=!\"%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 66 "Now find the
+ error difference between the two broadcasting coils:\n" }{MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "Broadcast_Error[Hz
+]:=(fbprime[Hz]-fb[Hz]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%0Broadc
+ast_ErrorG6#%#HzG$\")(GVK$!\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 63 "Broadcast_Error[Percent]:=(fbprime[Hz]-fb[Hz])/fbprime[Hz]*100
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%0Broadcast_ErrorG6#%(PercentG$
+\"+;)o[z\"!\"*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 110 "NOTE:  A capac
+itance adjustment of +2.4812nF to the Autix and Betix cards will tune \+
+these coils to zero error." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "omega[bprime]:= 2*3.1415926*
+fbprime[Hz];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%&omegaG6#%'bprimeG$
+\"+#*psj6!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "Period[s]:
+= 1/fbprime[Hz];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%'PeriodG6#%\"sG
+$\"+q<>*R&!#:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "Xc_OHMS:= \+
+1/(omega[bprime]*C);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(Xc_OHMSG$\"
++?(H#o7!\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "XL_OHMS:= om
+ega[bprime]*C;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(XL_OHMSG$\"+Go+&)
+y!#6" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 45 "Now find Q in terms of th
+e series RL nature:\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "Q3:=(2*3.1
+415926*fbprime[Hz]*L)/R;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#Q3G$\"+
+w'H#o7!#6" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 44 "Now find the bandwid
+th of the circuit (Hz):\n" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "B3:=Q3
+*fbprime[Hz];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#B3G$\"+V]#*[B!\"'
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 45 "Now find Q in terms of the se
+ries RC nature:\n" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 36 "Q4:=1/(2*3.1415926*fbprime[Hz]*R*C);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#Q4G$\"+>(H#o7!#6" }}}{PARA 0 "" 0 "
+" {TEXT -1 44 "Now find the bandwidth of the circuit (Hz):\n" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "B4:=Q4*fbprime[Hz];" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#B4G$\"+A^#*[B!\"'" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 211 "      16 April 2004--The bandwidths of the two
+ coils are near exactly matched--at least close enough to make them op
+erational.  I assume from my model that power is transmitted in this n
+arrow band of 2.350kHz.  " }{TEXT 272 1 "Q" }{TEXT -1 418 " is low whi
+ch enhances my theory.  This may be why I can feel the energy present \+
+in the system.  I couldn't feel 185kHz or the 14.556MHz properties of \+
+the spiral winds, I believe it would pass over my body in its wireless
+ capacity.  But the bandwidth frequency would be the pathway in which \+
+the energy was transmitted--at least this is how I see it.  I can't ge
+t much help otherwise, all academics I know are assholes." }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT 262 3 "END" }{MPLTEXT 1 0 0 "" }}}}{MARK "22 0 0
+" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 1 1 2 33 1 1 }

@@ -1,0 +1,49 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"Maple Plot" 0 13 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT 257 44 "See Cybie Coil.mws for th
+e other equations.\n" }{TEXT -1 19 "Energy for L and C:" }{TEXT 256 0 
+"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "restart:\nV:= 92.466;\nC:= 1E-
+7;\nL:= 0.1;\ni:= 0.3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"VG$\"&mC
+*!\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"CG$\"\"\"!\"(" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"LG$\"\"\"!\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"iG$\"\"$!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+19 "Capacitance energy:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "Jc:= 0.5
+*V^2*C;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#JcG$\"+y0)\\F%!#8" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 18 "Inductance Energy:" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 15 "Jl:= 0.5*i^2*L;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#JlG$\"#X!\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "pl
+ot([Jc, Jl]);" }}{PARA 13 "" 1 "" {GLPLOT2D 307 307 307 {PLOTDATA 2 "6
+&-%'CURVESG6$7S7$$!#5\"\"!$\"3#)*****zd!)\\F%!#@7$$!3!pmmm\"p0k&*!#<F+
+7$$!3uKL$3<XZ=*F1F+7$$!3WmmmT%p\"e()F1F+7$$!3/nmm\"4m(G$)F1F+7$$!3OLL$
+3i.9!zF1F+7$$!3fmm;/R=0vF1F+7$$!3k++]P8#\\4(F1F+7$$!3Kmm;/siqmF1F+7$$!
+3Q****\\(y$pZiF1F+7$$!3jKLL$yaE\"eF1F+7$$!3<mmm\">s%HaF1F+7$$!3]******
+\\$*4)*\\F1F+7$$!3o******\\_&\\c%F1F+7$$!3%)******\\1aZTF1F+7$$!3Imm;/
+#)[oPF1F+7$$!3%HLLL=exJ$F1F+7$$!3lKLLL2$f$HF1F+7$$!3%)****\\PYx\"\\#F1
+F+7$$!3gLLLL7i)4#F1F+7$$!3o)***\\P'psm\"F1F+7$$!3?****\\74_c7F1F+7$$!3
+M:LL$3x%z#)!#=F+7$$!3()HLL3s$QM%F[pF+7$$!3]^omm;zr)*!#?F+7$$\"3fVLLezw
+5VF[pF+7$$\"3-.++v$Q#\\\")F[pF+7$$\"3%\\LL$e\"*[H7F1F+7$$\"3=++++dxd;F
+1F+7$$\"3e+++D0xw?F1F+7$$\"35,+]i&p@[#F1F+7$$\"3++++vgHKHF1F+7$$\"3Elm
+mmZvOLF1F+7$$\"3%4+++v+'oPF1F+7$$\"3UKL$eR<*fTF1F+7$$\"3K-++])Hxe%F1F+
+7$$\"3!fmm\"H!o-*\\F1F+7$$\"3X,+]7k.6aF1F+7$$\"3#emmmT9C#eF1F+7$$\"33*
+***\\i!*3`iF1F+7$$\"3;NLLL*zym'F1F+7$$\"3'eLL$3N1#4(F1F+7$$\"3,pm;HYt7
+vF1F+7$$\"37-+++xG**yF1F+7$$\"3gpmmT6KU$)F1F+7$$\"3qNLLLbdQ()F1F+7$$\"
+3[++]i`1h\"*F1F+7$$\"3A-+]P?Wl&*F1F+7$$\"#5F*F+-%'COLOURG6&%$RGBG$Fjt!
+\"\"$F*F*Fau-F$6$7S7$F($\"3o*************\\%Fbp7$F/Ffu7$F3Ffu7$F6Ffu7$
+F9Ffu7$F<Ffu7$F?Ffu7$FBFfu7$FEFfu7$FHFfu7$FKFfu7$FNFfu7$FQFfu7$FTFfu7$
+FWFfu7$FZFfu7$FgnFfu7$FjnFfu7$F]oFfu7$F`oFfu7$FcoFfu7$FfoFfu7$FioFfu7$
+F]pFfu7$F`pFfu7$FdpFfu7$FgpFfu7$FjpFfu7$F]qFfu7$F`qFfu7$FcqFfu7$FfqFfu
+7$FiqFfu7$F\\rFfu7$F_rFfu7$FbrFfu7$FerFfu7$FhrFfu7$F[sFfu7$F^sFfu7$Fas
+Ffu7$FdsFfu7$FgsFfu7$FjsFfu7$F]tFfu7$F`tFfu7$FctFfu7$FftFfu7$FitFfu-F
+\\u6&F^uFauF_uFau-%+AXESLABELSG6$Q!6\"F]y-%%VIEWG6$;F(Fit%(DEFAULTG" 
+1 2 0 1 10 0 2 9 1 4 2 1.000000 45.000000 45.000000 0 0 "Curve 1" "Cur
+ve 2" }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "4 0 0
+" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

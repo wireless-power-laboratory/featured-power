@@ -1,0 +1,134 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+258 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot
+" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 17 "11 November 2003\n" }
+{TEXT 256 52 "The Equations for the I-Cybie Wireless Power Project" }
+{TEXT -1 785 "\n\nThis document is in response to the inability of bat
+tery manufacturers to make a decent product.  The last CD player I bou
+ght claims 4 hours of alkaline life but only lasts 60 to 90 minutes at
+ the least power-consumption level.  Now, with the I-Cybie Project in \+
+full swing and the Sydrandria Algorithms ready to test, the goddamned \+
+battery claims 4 hours of use but only lasts, you guessed it, 60 to 90
+ minutes.  This is the last straw.  So, calling on an old project and \+
+even older research, I have decided to test out Tesla's Wardenclyffe w
+ireless power transmitter.  These computations are all related to this
+.  This work is in pursuit of a prototype to test which eventually wil
+l be utilized in the I-Cybie to transmit not only power, but in the fu
+ture, instuction sets as well.\n" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 
+"equ:=solve(L = (N^2*mu*A)/l,N);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+$equG6$*(%#muG!\"\"%\"AGF(**F'\"\"\"F)F+%\"LGF+%\"lGF+#F+\"\"#,$F&F(" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT 259 5 "NOTE:" }{TEXT -1 3 "  \002" }
+{TEXT 258 159 "The circuit seems to enjoy the inductance at this value
+; this particular scaled size of the receiving coil allows Z, theta, o
+mega, and X to commute near unity." }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 111 "L:= 0.00001;\nmu:= 12.56E-7;\nr:= \+
+0.00635;\nA:= 3.1415926*r^2;\nl:= 0.14605;\nC:= 1E-7;\nR:= 100;\nVdc:=
+50;\nVp:=110;\n\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"LG$\"\"\"!\"&
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#muG$\"%c7!\"*" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%\"rG$\"$N'!\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%\"AG$\"+w'onE\"!#8" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"lG$\"&0Y\"
+!\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"CG$\"\"\"!\"(" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%\"RG\"$+\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%$VdcG\"#]" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#VpG\"$5\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "g:= fsolve(Vrms = sqrt(Vdc^2
+ + (Vp^2/2)));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"gG$\"+/5iY#*!\")
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 192 "Number_of_Winds:=solve
+(L = (N^2*mu*A)/l,N);\nf:=solve(f = 1/(2*3.1415926*sqrt(L*C)));\nomega
+:= 2*3.1415926*f;\nT:= 1/f;\nXc_OHMS:= 1/(omega*C);\nXL_OHMS:= omega*C
+;\nX:= Xc_OHMS + XL_OHMS;\ni:= Vdc/X;" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%0Number_of_WindsG6$$!+n>#4e*!\")$\"+n>#4e*F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"fG$\"+e%\\:f\"!\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%&omegaG$\"+++++5!\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"TG$\"
+++_=$G'!#:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(Xc_OHMSG$\"+++++5!\")
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(XL_OHMSG$\"+++++5!#5" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"XG$\"++++55!\")" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"iG$\"+]]\\]\\!\"*" }}}{PARA 11 "" 1 "" {TEXT -1 0 "
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 75 "G:= 1/R;\nB:= 1/X;\nZ:= \+
+sqrt(R^2 + X^2);\ntheta:= arctan(X/R);\nF:= cos(theta);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"GG#\"\"\"\"$+\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"BG$\"+*4!*4!**!#6" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%\"ZG$\"+ev305!\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&thetaG$\"+
+Kle15!#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"FG$\"+R>Q\\**!#5" }}}
+{PARA 11 "" 1 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 67 "T
+he spiral equation in polar form for the Tesla part of the design:" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 72 "A:= 1.591;\nb:= 0.09950362081;\na:= solve(ln(a)=A,a
+);\nr:= x -> a*exp(b*x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG$\"%
+\"f\"!\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"bG$\"+\"3i.&**!#6" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG$\"+I^l3\\!\"*" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%\"rGf*6#%\"xG6\"6$%)operatorG%&arrowGF(*&%\"aG\"\"
+\"-%$expG6#*&%\"bGF.9$F.F.F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "plot(r(x),x,coords=polar);" }}{PARA 13 "" 1 "" 
+{GLPLOT2D 307 307 307 {PLOTDATA 2 "6$-%'CURVESG6$7_r7$$!3**\\ylM&HF_\"
+!#<$\"3=Q:(3\"=ys)*!#=7$$!3)=Bf!4dZP<F*$\"3'*faZUTU&['F-7$$!3]'zm#*3!)
+o(=F*$\"3D$=36]M6j#F-7$$!3\\q#)Ra!)))G>F*$!3%G(Hfj=PD(*!#>7$$!3vEPK$\\
+0<\">F*$!3S&3R2/F*yYF-7$$!3kxe&yx(H2=F*$!3%)G)p.g!Q/))F-7$$!3ZYE=_(oQh
+\"F*$!3[4'em@4(p7F*7$$!3N%o*)ff-XL\"F*$!3vI@J-Ph=;F*7$$!31N@7cO:(z*F-$
+!3!*))f<BD11>F*7$$!3y\")G$)H2D^cF-$!3*yB:s%Q'\\6#F*7$$!3Si'3y+d+1\"F-$
+!3FJ`IxVpLAF*7$$\"3M!)>knxyBMF-$!3s]x&3?#)[D#F*7$$\"3]&y+sy!)*\\zF-$!3
+mrG()*zig=#F*7$$\"3]#ez?Ga)[7F*$!3%oV8c7(3>?F*7$$\"3#Rt6iAWwm\"F*$!39K
+wrfi)yv\"F*7$$\"3>!\\wH!G2V?F*$!3q-M*R#)3lR\"F*7$$\"3A&*zIE(*>SBF*$!3c
+w/[C&*f\\&*F-7$$\"3y^A_&\\F9a#F*$!3nOa>4d->XF-7$$\"3ap/RRB_MEF*$\"3w$o
+=>;[UN*F=7$$\"3t#fD@p(43EF*$\"3^Ik!>!>GVnF-7$$\"3M<\"3AW]OX#F*$\"3]o**
+z\"z3![7F*7$$\"3u#e,<I%*G@#F*$\"3PyjMAT(\\s\"F*7$$\"3K3T3H>Uz=F*$\"3Mr
+Z2=o\\b@F*7$$\"3[(=/W:zVS\"F*$\"3%*G!)Q_h=iDF*7$$\"3A_[I$f'\\8%)F-$\"3
+cmp?bs>kGF*7$$\"3yS-\"G!f?2@F-$\"3:MUK>S&H/$F*7$$!3UT[x:%=%yXF-$\"3oo#
+=JeuG3$F*7$$!3x)3(>RoY46F*$\"3#fS)Rf&4C)HF*7$$!35,SYUd2R<F*$\"3;<V0]`@
+WFF*7$$!335p^u[GnAF*$\"3\"y\"3e\"y:DT#F*7$$!3IVJkf;BKFF*$\"3?d=.G%[\"z
+>F*7$$!3m+Z\"zmHe<$F*$\"3-%QXJd_%[8F*7$$!3I/rrMH)QZ$F*$\"3%pG[V)y)Q='F
+-7$$!3ESbJmEx&f$F*$!37Fvyj-].`F=7$$!3KKT@yF*ye$F*$!3%Rh\"py]v%[(F-7$$!
+3PP)>`oP%4MF*$!3S6I0%HBVb\"F*7$$!3+Jwj\"=;+0$F*$!3/L;R9+w<BF*7$$!3Y6d]
+71t)e#F*$!3z#ev_F(\\DHF*7$$!36&Q@W;\\j+#F*$!3[6>#RdG9W$F*7$$!3i#ytn57*
+\\7F*$!3mQ!*H&=4L(QF*7$$!3D:okGpS0SF-$!3\"G,RUaS*QTF*7$$\"3$yMnNvoFh%F
+-$!3cn&=JI&)*=UF*7$$\"3*ff(eiG1R8F*$!3S(oB0d$e>TF*7$$\"3H$o'>b`aJAF*$!
+3\"Qx4fRC7#QF*7$$\"3O=u0UffdIF*$!3tptzW$H&HLF*7$$\"3k\"zV&*QA<s$F*$!3N
+j,Z)48-s#F*7$$\"3m5eTYYUkUF*$!3=Sun[lUy>F*7$$\"3u\">xD#oQ$o%F*$!37]R)e
+mkx0\"F*7$$\"3LsVQ&)of.\\F*$!3WO/yRf)3%[F=7$$\"3Now\"H0_=!\\F*$\"3!oR_
+Dn!)y/\"F*7$$\"3s$3Q1oV]l%F*$\"3$[lR2tq49#F*7$$\"3s4X:-'=9C%F*$\"3WlQ:
+U'Rs/$F*7$$\"3iHQTG!e8l$F*$\"3_9'o^8-O(QF*7$$\"30nE3MP&Q$GF*$\"3ZgM*Q!
+RzOYF*7$$\"3w:M/5#Qo&=F*$\"3Zte+(*HYF_F*7$$\"3#QyWFwwo=(F-$\"3'*\\9oBy
+;@cF*7$$!3d\"=nV$[')G]F-$\"3KJ>(Hd(3ndF*7$$!3SM=R#Q))os\"F*$\"3-s-3\"*
+3.`cF*7$$!3*>s*)3kF^#HF*$\"3u09B!H-#z_F*7$$!3bHw.)\\\\!3SF*$\"3IP(*z!y
+3cn%F*7$$!3uR5)=^Ck'\\F*$\"3E$=Em`x)\\QF*7$$!3u6aSayVHeF*$\"3wf?3ocK/F
+F*7$$!3$fYRGi(HGkF*$\"3'G\"36]lTl8F*7$$!3@[FfB;70nF*$\"3^i,76WuQZF=7$$
+!3ffF9`Vq6nF*$!3ss8jhzvE8F*7$$!3sUo,?&*z2kF*$!3%39)RQ,I$z#F*7$$!3)\\h+
+DtvMy&F*$!3M=Ja6EP!>%F*7$$!3#p)o956)R&\\F*$!3eW]?YArP`F*7$$!3O@AW(*[(o
+*QF*$!3='*=lw=&3K'F*7$$!3V>(*)HfN$>DF*$!3WFBB/CparF*7$$!3%y=1!*z!=M'*F
+-$!3A&oK\"=_M)o(F*7$$\"3!oT8L3g-0'F-$!3Yv)HNnG?)yF*7$$\"3z0)*Ra%*R7AF*
+$!33IlQghubxF*7$$\"3a*[#3A\"GL'QF*$!3'ztykL)QtsF*7$$\"3ViQU7`94aF*$!3Y
+k#fIu?'RkF*7$$\"3'31$)y;\\qu'F*$!3ee3Pp\"4mI&F*7$$\"3MqL%>3Rw%yF*$!3/i
+z,%oSc*QF*7$$\"3U*GW`4r$4$)F*$!3_,`>hFSiIF*7$$\"3yUcEv!pGo)F*$!3umej*[
+9\\<#F*7$$\"3-/;08l!='*)F*$!3Syj:\"*G\\U7F*7$$\"3_&=kZyP39*F*$!3k)*R;D
+)z=v#F-7$$\"3B/Lu'o7[@*F*$\"3m(f*eI8^%z'F-7$$\"3'f)z\"H'=J*=*F*$\"3i>e
+$3*oaY;F*7$$\"3oU*R&*pSD1*F*$\"3#*\\+(Q:ddh#F*7$$\"3J()=<[txL))F*$\"35
+Rk$3'4]wNF*7$$\"3_?baN\\v%\\)F*$\"3e.u='*\\3RXF*7$$\"3u*f4ME$4^!)F*$\"
+3c4-^J*\\,Z&F*7$$\"3VcU7%*zk0vF*$\"3;N7j!4Z$ejF*7$$\"3uazvQG]ioF*$\"3-
+p4h6td#>(F*7$$\"3IhwjuASLhF*$\"3/:$y>7Xg&zF*7$$\"3V%[[xB:(>`F*$\"3oj&H
+(Q*Rfk)F*7$$\"3xT(*ew'G)GWF*$\"3'yQ)f*yDHD*F*7$$\"3%Gi*Q[j:pMF*$\"3w<M
+]6USo(*F*7$$\"3%oVV#4n'zb\"F*$\"3s>@b<Y>X5!#;7$$!3O,71*y!)*y[F-$\"3?Ut
+orl:w5Fjhl7$$!3G@=<Z='Hp\"F*$\"3qh1YxD'f2\"Fjhl7$$!3g:%*))>tp.HF*$\"3u
+9+>6-Ii5Fjhl7$$!346&35P!30TF*$\"3\"o$='[FS].\"Fjhl7$$!33lw!=2p=G&F*$\"
+3jQ,yT%3A%**F*7$$!3y?s&z!)z5I'F*$\"3#[q+ue2RY*F*7$$!3!44d)fpcxsF*$\"3S
+W[<*zO9)))F*7$$!3^Y`W:Ur+#)F*$\"3ilw3\\sa)>)F*7$$!3WKy]NtAg!*F*$\"32$)
+QHm!p+U(F*7$$!3Q20$GGga*)*F*$\"3Aa'ea-*R\"\\'F*7$$!3'*oL7Jtej5Fjhl$\"3
+'>LhVlh\"paF*7$$!3E\")\\6'*H5F6Fjhl$\"3o9hKcu*HO%F*7$$!3gwLVQp9z6Fjhl$
+\"3-duu'R1P=$F*7$$!3Wj$=/QUu@\"Fjhl$\"3'Q3um#RU(*>F*7$$!3\"R]6HCMQC\"F
+jhl$\"3yl=8+&oAm(F-7$$!3;+*f1q0yD\"Fjhl$!3+^#o=!\\sz\\F-7$$!3WsI)f!)e*
+e7Fjhl$!3KLkW))en#y\"F*7$$!3!Rjv&z-gX7Fjhl$!3s^+ho4IrJF*7$$!3q&f!eQi&p
+@\"Fjhl$!3cny*pW,@b%F*7$$!3#>HQcSPI<\"Fjhl$!3W<,j@`G3fF*7$$!3[yoo.'QS6
+\"Fjhl$!3&>!z24**)HA(F*-%'COLOURG6&%$RGBG$\"#5!\"\"$\"\"!F\\`mF[`m-%%V
+IEWG6$%(DEFAULTGF``m" 1 2 0 1 10 0 2 9 1 4 2 1.000000 45.000000 
+45.000000 0 0 "Curve 1" }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "
+arccos(b);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+TL\\q9!\"*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "12 1 0" 2 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
