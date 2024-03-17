@@ -1,5 +1,5 @@
 # featured-power
-Collection of code used to compute properties of wireless power.
+Collection of code used to compute properties of wireless power and other esoteric oscillators.
 
 The folders marked "comsol" and "matlab" are code files for plots appearing in the paper:
 
