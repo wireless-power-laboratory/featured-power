@@ -30,4 +30,4 @@ _The Deal_
 
 Offer: The patent covers the ideation but is offered as a part of licensing as an _application extension_.
 
-Realization: In exchange for compensation: 1. Consulting time to devise ideal PoC, 2. Receive an implementation, 3. Collaborative patent to introduce the "spirit of" cooperation going forward, 4. For extra compensation, knowledge transfer.
+Realization: In exchange for compensation: 1. Consulting time to devise ideal PoC, 2. Receive an implementation, 3. Collaborative patent to introduce the "spirit of" cooperation going forward, 4. For extra compensation, training of staff and knowledge transfer.
