@@ -4,7 +4,7 @@ The term _featured power_ was first devised in 2003 and realized in prototypical
 
 ![image](/images/2014/everything_overhead.jpg)
 
-In the picture the planar coils (bottom right), computation boards (center), remote cards with subtractive coils (left), and extended inductance and capacitiors (far left), as well as the terrestrial capacitor for experiments as well as an analog SWR meter (top right).
+In the picture the planar coils (bottom right), computation boards (center), remote cards with subtractive coils (left), and extended inductance and capacitiors (far left), as well as the terrestrial capacitor for experiments as well as a calibration equipment and cable-set (top right).
 
 ### What is in this repo?
 
