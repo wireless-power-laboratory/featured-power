@@ -16,4 +16,10 @@ Collection of code used to compute properties of wireless power and other esoter
 
 ### What is the point of this repo?
 
-To promulgate the patent and find licensees to implement various aspects of the technology.
+To promulgate the patent and find licensees to implement various aspects of the technology. To pursue this aim, what are the most salent features of featured power?
+
+_Fractional_ power transmission
+
+Based on a very early idea (1997), the notion of a single transmitter/receiver in trinary form and sets of coupling coils that fractionalize the power/frequency based on the quotient ratio between the trinary and the minor coil. In the prototypical case, there are a set of five minor coils to a single trinary.
+
+![fractional]()
