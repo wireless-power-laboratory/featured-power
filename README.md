@@ -22,4 +22,4 @@ _Fractional_ power transmission
 
 Based on a very early idea (1997), the notion of a single transmitter/receiver in trinary form and sets of coupling coils that fractionalize the power/frequency based on the quotient ratio between the trinary and the minor coil. In the prototypical case, there are a set of five minor coils to a single trinary.
 
-![fractional]()
+![fractional](/images/2014/fractionals.jpg)
