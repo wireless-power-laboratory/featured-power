@@ -31,3 +31,16 @@ _The Deal_
 Offer: The patent covers the ideation but is offered as a part of licensing as an _application extension_.
 
 Realization: In exchange for compensation: 1. Consulting time to devise ideal PoC, 2. Receive an implementation, 3. Collaborative patent to introduce the "spirit of" cooperation going forward, 4. For extra compensation, training of staff and knowledge transfer.
+
+### Multifold Power
+
+The concept of power and data transmission between multiple distant circuits wirelessly and in concert. The current design limited to five.
+
+### Absorbive Skin
+
+A coil-replacement technology where a molecular-injected material performs the same behavior in _multifold mode_ but without ANY wires!
+
+### Past Implementations
+
+* Wireless-power couplings for solar-satellites - ESA. (2012, 2023)
+* Medical technology: Neuronal therapy via non-thermal low-frequency waveforms (2011 - 2015)
