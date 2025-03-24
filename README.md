@@ -8,12 +8,8 @@ In the picture the planar coils (bottom right), computation boards (center), rem
 
 ### What is in this repo?
 
-Collection of code used to compute properties of wireless power and other esoteric oscillators.
+Collection of code used to compute properties of wireless power and other esoteric oscillators. They are correlated by the type of esoterism.
 
-The folders marked "comsol" and "matlab" are code files for plots appearing in the paper:
-
-"A contribution to the wireless transmission of power", International Journal of Electrical Power & Energy Systems, May 2013. https://www.sciencedirect.com/science/article/abs/pii/S0142061512006308
-
-### What can be anticipated?
-
-Some quite cool.
+* Inductive [link](/linking/inductive%20link/ReadMe.md)
+* Resonant [link](/linking/resonant%20link/ReadMe.md)
+* Oscillator [driven](/linking/oscillator-driven/ReadMe.md)
