@@ -25,3 +25,9 @@ Based on a very early idea (1997), the notion of a single transmitter/receiver i
 ![fractional](/images/2014/fractionals.jpg)
 
 In the picture: Above are the trinary coil and the repeater, two robotic power/data transmission cards, four graduated fractional coils in raw form and one fractional coil mounted on a card for testing and demonstration.
+
+_The Deal_
+
+Offer: The patent covers the ideation but is offered as a part of licensing as an _application extension_.
+
+Realization: In exchange for compensation: 1. Consulting time to devise ideal PoC, 2. Receive an implementation, 3. Collaborative patent to introduce the "spirit of" cooperation going forward, 4. For extra compensation, knowledge transfer.
