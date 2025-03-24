@@ -1,6 +1,6 @@
 ## The mathematical and physical concept that is _featured power_
 
-The term _featured power_ was first devised in 2005 subsequent to experiments with the Model 'F' oscillator and broadcasting apparatus:
+The term _featured power_ was first devised in 2003 and realized in prototypical form 19 April 2004. Since then a series of experimental groups have been prposed and conducted wherein to examine the properties of the Model 'F' oscillator and broadcasting system, described in US Patent [8,274.178](/patent/US8274178.pdf). In a nutshell, the entire experimental apparatus appears thusly:
 
 ![image](/images/2014/everything_overhead.jpg)
 
@@ -13,3 +13,7 @@ Collection of code used to compute properties of wireless power and other esoter
 * Inductive [link](/linking/inductive%20link/ReadMe.md)
 * Resonant [link](/linking/resonant%20link/ReadMe.md)
 * Oscillator [driven](/linking/oscillator-driven/ReadMe.md)
+
+### What is the point of this repo?
+
+To promulgate the patent and find licensees to implement various aspects of the technology.
